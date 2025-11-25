@@ -124,7 +124,7 @@ if not prompt:
     print("Błąd: brak PROMPT w środowisku.", file=sys.stderr)
     sys.exit(1)
 
-url = "http://localhost:11434/v1/chat/completions"
+url = "http://192.168.10.57:11434/v1/chat/completions"
 payload = {
     "model": "local",
     "messages": [
